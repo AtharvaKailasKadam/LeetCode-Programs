@@ -1,4 +1,7 @@
-class Solution {
+import java.util.Arrays;
+
+class  TWO_SUM
+{
     public int[] twoSum(int[] nums, int target)
     {
         for(int i = 0; i < nums.length; i++)
@@ -18,7 +21,9 @@ class Solution {
         int[] nums = {2,7,11,15};
         int target = 9;
 
-        Solution sol = new Solution();
-        sol.twoSum(nums, target);
+        TWO_SUM sol = new TWO_SUM();
+        int[] result = sol.twoSum(nums, target);
+
+        System.out.println("Indices of the Two Numbers are : "+Arrays.toString(result));
     }
 }
