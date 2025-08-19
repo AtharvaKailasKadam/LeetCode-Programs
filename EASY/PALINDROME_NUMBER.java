@@ -1,4 +1,5 @@
-class PALINDROME {
+public class PALINDROME_NUMBER
+{
     public boolean isPalindrome(int x)
     {
         int Num = x;
@@ -22,7 +23,7 @@ class PALINDROME {
     {
         int Num = 121;
 
-        PALINDROME sol = new PALINDROME();
-        sol.isPalindrome(Num);
+        PALINDROME_NUMBER sol = new PALINDROME_NUMBER();
+        System.out.println(sol.isPalindrome(Num));
     }
 }
